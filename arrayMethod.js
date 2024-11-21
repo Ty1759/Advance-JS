@@ -33,3 +33,8 @@ console.log(upperCaseFruits)
 
 let longFruits = fruits.filter(fruits => fruits.length > 7);
 console.log(longFruits)
+
+fruits.filter(function returnFruits(fruit){
+    return fruit.lenght > 7;
+})
+console.log(longFruits)
