@@ -34,3 +34,11 @@ console.log(upperCaseFruits)
 let longFruits = fruits.filter(fruits => fruits.length > 7);
 console.log(longFruits)
 
+let foundFruit = fruits.find(fruit => fruit === "Apple");
+console.log(foundFruit)
+
+let hasBanana = fruits.includes("Banana");
+console.log(hasBanana)
+
+let hasWatermelon = fruits.includes("Watermelon");
+console.log(hasWatermelon)
