@@ -31,3 +31,5 @@ let singleFruit = fruits.map(fruit => console.log(fruit))
 let upperCaseFruits = fruits.map(fruit => fruit.toUpperCase());
 console.log(upperCaseFruits)
 
+let longFruits = fruits.filter(fruits => fruits.length > 7);
+console.log(longFruits)
