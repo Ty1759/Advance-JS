@@ -42,3 +42,38 @@ console.log(hasBanana)
 
 let hasWatermelon = fruits.includes("Watermelon");
 console.log(hasWatermelon)
+
+
+
+//ASSIGNMENT.
+//concat method is used in various programming languages to combine two or more strings, arrays or sequences into one.
+//Examples below shows combination of two or more strings and also that of array method.
+let string1 = "The Best";
+let string2 = " Photographer Ever";
+result = string1.concat(string2);
+console.log(result); Output: "The Best Photographer Ever"
+
+//Example 2. Array
+let array1 = ["Gold, Silver, Bronze"];
+let array2 = ["Diamond, Pearl"];
+result = array1.concat(array2);
+console.log(result);   Output: ["Gold, Silver, Bronze, Diamond, Pearl"]
+
+
+//Sort Method
+// this method is used in sorting elements in a list on an array. it arranges the elements in ascending or descending order.
+//Example below
+Nos = [3, 0, 4, 1, 5, 9, 2, 6]
+Nos.sort()  //Sorts in ascending order
+console.log(Nos)
+
+Noor = [1, 3, 5, 6, 8, 9, 4, 7]
+Noor.sort = (reverse = true); // sorts in descending order
+console.log(Noor)
+
+//Assignment 3
+ // using mapping() method create an array of objects and display each item in the console
+const userInfo = [
+    {name:"Amorim", location: "Manchester", work: "Football coach", gender: "Male"} // an array of objects
+];
+userInfo.map(userInfo => console.log( "name:",userInfo.name,  "location:",userInfo.location, "work:", userInfo.work,"gender:", userInfo.gender)); 
