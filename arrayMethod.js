@@ -77,3 +77,5 @@ const userInfo = [
     {name:"Amorim", location: "Manchester", work: "Football coach", gender: "Male"} // an array of objects
 ];
 userInfo.map(userInfo => console.log( "name:",userInfo.name,  "location:",userInfo.location, "work:", userInfo.work,"gender:", userInfo.gender)); 
+
+// DOM Document Object Model.
